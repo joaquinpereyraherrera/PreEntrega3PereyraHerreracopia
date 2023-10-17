@@ -1,290 +1,274 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Raleway:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Raleway:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
 /*HEADER SECTION*/
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    background-color: rgb(1, 1, 1);
-    font-family:"Open Sans", sans-serif;
+header {
+  background-color: rgb(1, 1, 1);
+  font-family: "Open Sans", sans-serif;
 }
 
-body{
-    background-color: white;
+body {
+  background-color: white;
 }
 
-#navbar-ul{
-    display: inline;
-    justify-content: flex-end;
+#navbar-ul {
+  display: inline;
+  justify-content: flex-end;
 }
 
-#navbar-logo{
-    height: 100px;
-    width: 120px;
-    margin-top: 5px;
-    margin-left: 25px;
-    margin-bottom: 5px;
+#navbar-logo {
+  height: 100px;
+  width: 120px;
+  margin-top: 5px;
+  margin-left: 25px;
+  margin-bottom: 5px;
 }
 
-header .container nav ul li{
-    display: inline;
-    margin-left: 25px;
-    text-decoration: none;
+header .container nav ul li {
+  display: inline;
+  margin-left: 25px;
+  text-decoration: none;
 }
 
-header .container nav ul li a{
-    text-decoration: none;
-    color: rgb(216, 217, 218);
-    float: right;
-    margin-right: 30px;
-    margin-top: 50px;
+header .container nav ul li a {
+  text-decoration: none;
+  color: rgb(216, 217, 218);
+  float: right;
+  margin-right: 30px;
+  margin-top: 50px;
 }
 
-header .container nav ul li a:hover{
-    color: grey;
+header .container nav ul li a:hover {
+  color: grey;
 }
-
 
 /*MAIN SECTION INTRODUCCION*/
-
-#hero{
-    background: url(../img/nuevofondopagph.jpg);
-    height: 90vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
+#hero {
+  background: url(../img/nuevofondopagph.jpg);
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-#logo-main{
-    text-align: center;
+#logo-main {
+  text-align: center;
 }
 
-.logo-container{
-    background: rgba(0, 0, 0, 0.8);
-    height: 90vh;
+.logo-container {
+  background: rgba(0, 0, 0, 0.8);
+  height: 90vh;
 }
 
-main section div h1{
-    font-family: 'Merriweather', serif;
-    color: #fff;
-    text-align: center;
-    font-weight: 600;
-    
+main section div h1 {
+  font-family: "Merriweather", serif;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
 }
 
-main section div h2{
-    font-family: 'Merriweather', serif;
-    color: #fff;
-    text-align: center;
-    font-size: 200;
+main section div h2 {
+  font-family: "Merriweather", serif;
+  color: #fff;
+  text-align: center;
+  font-size: 200;
 }
-
 
 /*MAIN CONTACTENOS SECTION*/
-
-.texto-contacto h1{
-    text-align: center;
-    margin-top: 50px;
-    font-family: 'Merriweather', serif;
-    color: black;
+.texto-contacto h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Merriweather", serif;
+  color: black;
 }
 
-.texto-contacto h3{
-    text-align: center;
-    margin-top: 25px;
-    font-family: 'Merriweather', serif;
+.texto-contacto h3 {
+  text-align: center;
+  margin-top: 25px;
+  font-family: "Merriweather", serif;
 }
 
-.div-cuadro{
-    font-family:"Open Sans", sans-serif;
+.div-cuadro {
+  font-family: "Open Sans", sans-serif;
 }
 
 .form-container {
-    border-radius: 5px;
-    background-color: rgb(97, 103, 122);
-    padding: 10px;
-    margin-top: 50px;
-    margin-left: 450px;
-    margin-right: 450px;
-    margin-bottom: 50px;
+  border-radius: 5px;
+  background-color: rgb(97, 103, 122);
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 450px;
+  margin-right: 450px;
+  margin-bottom: 50px;
 }
 
 #cuadro {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical; 
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 #form-boton {
-    background-color: rgb(250, 150, 0);
-    color: black;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin: 15px;
+  background-color: rgb(250, 150, 0);
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 15px;
 }
-
 
 /*MAIN CLIENTES SECTION*/
-
-.texto-clientes h1{
-    text-align: center;
-    margin-top: 50px;
-    font-family: 'Merriweather', serif;
+.texto-clientes h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Merriweather", serif;
 }
 
-.texto-clientes h3{
-    text-align: center;
-    margin-top: 25px;
-    font-family: 'Merriweather', serif;
+.texto-clientes h3 {
+  text-align: center;
+  margin-top: 25px;
+  font-family: "Merriweather", serif;
 }
 
-.texto-clientes h2{
-    text-align: center;
-    margin-bottom: 20px;
-    font-family: 'Merriweather', serif;
+.texto-clientes h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Merriweather", serif;
 }
 
-.texto-clientes p{
-    text-align: center;
-    margin-bottom: 20px;
-    font-family: 'Merriweather', serif;
+.texto-clientes p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Merriweather", serif;
 }
 
-.imagenes-empresas{
-    width: 30%;
-    height: 30%;
-    margin-left: 550px;
-    display: block;
+.imagenes-empresas {
+  width: 30%;
+  height: 30%;
+  margin-left: 550px;
+  display: block;
 }
 
-.empresa-logo{
-    width: 250px;
-    height: 150px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    
-    box-shadow: 0 0 10px black; 
+.empresa-logo {
+  width: 250px;
+  height: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0 0 10px black;
 }
 
 /*MAIN NOSOTROS SECTION*/
-
-.texto-nosotros h1{
-    text-align: center;
-    margin-top: 50px;
-    font-family: 'Merriweather', serif;
+.texto-nosotros h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Merriweather", serif;
 }
 
-.texto-nosotros h3{
-    text-align: center;
-    margin-top: 25px;
-    font-family: 'Merriweather', serif;
+.texto-nosotros h3 {
+  text-align: center;
+  margin-top: 25px;
+  font-family: "Merriweather", serif;
 }
 
-.imagen-nosotros{
-    width: 35%;
-    height: 35%;
-    margin-left: 440px;
-    margin-top: 30px;
-    display: block;
+.imagen-nosotros {
+  width: 35%;
+  height: 35%;
+  margin-left: 440px;
+  margin-top: 30px;
+  display: block;
 }
 
-.nosotros-bloque h2{
-    text-align: center;
-    margin-top: 25px;
-    font-family: 'Merriweather', serif;
+.nosotros-bloque h2 {
+  text-align: center;
+  margin-top: 25px;
+  font-family: "Merriweather", serif;
 }
 
-.nosotros-bloque p{
-    text-align: center;
-    margin-top: 25px;
-    font-family: 'Merriweather', serif;
-    margin-bottom: 25px;
+.nosotros-bloque p {
+  text-align: center;
+  margin-top: 25px;
+  font-family: "Merriweather", serif;
+  margin-bottom: 25px;
 }
-
 
 /*MAIN COTIZACION SECTION*/
-
-.texto-cotizacion h1{
-    text-align: center;
-    margin-top: 50px;
-    font-family: 'Merriweather', serif;
+.texto-cotizacion h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Merriweather", serif;
 }
 
-.texto-cotizacion h3{
-    text-align: center;
-    margin-top: 25px;
-    font-family: 'Merriweather', serif;
+.texto-cotizacion h3 {
+  text-align: center;
+  margin-top: 25px;
+  font-family: "Merriweather", serif;
 }
 
-
-.boton-cotizacion{
-    background-color: rgb(255, 246, 224);
-    color: black;
-    padding: 12px 30px;
-    margin-left: 635px;
-    margin-top: 35px;
-    border: none;
-    border-radius: 4px;
-    margin-bottom: 30px;
+.boton-cotizacion {
+  background-color: rgb(255, 246, 224);
+  color: black;
+  padding: 12px 30px;
+  margin-left: 635px;
+  margin-top: 35px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 30px;
 }
 
-.a-cotizacion{
-    text-decoration: none;
-    color: black;
-    
+.a-cotizacion {
+  text-decoration: none;
+  color: black;
 }
 
 /*MAIN SERVICIOS SECTION*/
-
-.texto-servicios h2{
-    margin-left: 25px;
-    margin-top: 40px;
-    font-family: 'Merriweather', serif;
+.texto-servicios h2 {
+  margin-left: 25px;
+  margin-top: 40px;
+  font-family: "Merriweather", serif;
 }
 
-.texto-servicios p{
-    margin-left: 25px;
-    margin-top: 15px;
-    font-family: 'Merriweather', serif;
-    margin-bottom: 30px;
+.texto-servicios p {
+  margin-left: 25px;
+  margin-top: 15px;
+  font-family: "Merriweather", serif;
+  margin-bottom: 30px;
 }
 
-.img-servicios{
-    width: 350px;
-    height: 200px;
-    
-    box-shadow: 0 0 10px black; 
+.img-servicios {
+  width: 350px;
+  height: 200px;
+  box-shadow: 0 0 10px black;
 }
 
-section div .texto-carrusel h5{
-    color: orange;
+section div .texto-carrusel h5 {
+  color: orange;
 }
+
 /*FOOTER*/
-footer{
-    background-color: rgb(1, 1, 1);
-    
+footer {
+  background-color: rgb(1, 1, 1);
 }
 
-.copy-footer{
-    text-align: center;
-    color: white;
-    height: 80px;
-    padding-top: 35px;
+.copy-footer {
+  text-align: center;
+  color: white;
+  height: 80px;
+  padding-top: 35px;
 }
 
-.img-carousel{
-    text-align: center;
-
+.img-carousel {
+  text-align: center;
 }
+
+/*# sourceMappingURL=style.css.map */

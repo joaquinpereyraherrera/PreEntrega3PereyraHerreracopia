@@ -1,0 +1,42 @@
+/*MAIN SERVICIOS SECTION*/
+
+.texto-servicios h2{
+    margin-left: 25px;
+    margin-top: 40px;
+    font-family: 'Merriweather', serif;
+}
+
+.texto-servicios p{
+    margin-left: 25px;
+    margin-top: 15px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 30px;
+}
+
+.img-servicios{
+    width: 350px;
+    height: 200px;
+    
+    box-shadow: 0 0 10px black; 
+}
+
+section div .texto-carrusel h5{
+    color: orange;
+}
+/*FOOTER*/
+footer{
+    background-color: rgb(1, 1, 1);
+    
+}
+
+.copy-footer{
+    text-align: center;
+    color: white;
+    height: 80px;
+    padding-top: 35px;
+}
+
+.img-carousel{
+    text-align: center;
+
+}

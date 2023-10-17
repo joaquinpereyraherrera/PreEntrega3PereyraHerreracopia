@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+/*HEADER SECTION*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: $color-secundario;
+    font-family:"Open Sans", sans-serif;
+}
+
+header nav{
+    background-color: black;
+}
+body{
+    background-color: white;
+}
+
+
+#navbar-ul{
+    display: inline;
+    justify-content: flex-end;
+}
+
+#navbar-logo{
+    height: 100px;
+    width: 120px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+header .container nav ul li{
+    display: inline;
+    margin-left: 25px;
+    text-decoration: none;
+    
+}
+
+header .container nav ul li a{
+    text-decoration: none;
+    color: rgb(216, 217, 218);
+    float: right;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+header .container nav ul li a:hover{
+    color: grey;
+}
